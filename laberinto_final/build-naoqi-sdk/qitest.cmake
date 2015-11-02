@@ -1,1 +1,0 @@
---name;test_Laberinto_final;--timeout;20;--;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/sdk/bin/test_Laberinto_final
