@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Laberinto_final" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\.local\;CMake Files\..\..\..\.local\share\;CMake Files\..\..\..\.local\share\qi\;CMake Files\..\..\..\.local\share\qi\toolchains\;CMake Files\..\..\..\.local\share\qi\toolchains\naoqi-sdk\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\cmake\;CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\;CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\;CMake Files\build-naoqi-sdk\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Laberinto_final">
+         <Option output="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/sdk/bin/Laberinto_final" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 Laberinto_final" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Laberinto_final/fast">
+         <Option output="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/sdk/bin/Laberinto_final" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 Laberinto_final/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_Laberinto_final">
+         <Option output="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/sdk/bin/test_Laberinto_final" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 test_Laberinto_final" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_Laberinto_final/fast">
+         <Option output="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/sdk/bin/test_Laberinto_final" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/juan/Nao/devtools/naoqi-sdk-1.14.5-linux64/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 test_Laberinto_final/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/main.cpp">
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/test.cpp">
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../.local/share/qi/toolchains/naoqi-sdk/toolchain-naoqi-sdk.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\.local\share\qi\toolchains\naoqi-sdk\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/qibuild-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/general.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/log.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/set.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/subdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/python.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/find.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/flags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/target.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/submodule.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/option.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/codegen.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/gettext.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/git.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/internal/layout.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/internal/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/internal/glob.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/internal/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/internal/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/internal/uselib.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/../../../../../usr/local/share/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/dependencies.cmake">
+          <Option virtualFolder="CMake Files\build-naoqi-sdk\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

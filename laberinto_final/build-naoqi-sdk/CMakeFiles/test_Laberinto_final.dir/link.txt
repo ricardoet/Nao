@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/test_Laberinto_final.dir/test.cpp.o  -o sdk/bin/test_Laberinto_final -rdynamic -Wl,-rpath,:::::::::::::: 

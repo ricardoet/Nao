@@ -1,0 +1,14 @@
+[
+  {
+    "environment": null, 
+    "name": "test_Laberinto_final", 
+    "cmd": [
+      "/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/sdk/bin/test_Laberinto_final"
+    ], 
+    "nightly": false, 
+    "gtest": false, 
+    "working_directory": null, 
+    "timeout": 20, 
+    "perf": false
+  }
+]

@@ -1,0 +1,2 @@
+/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/CMakeFiles/Laberinto_final.dir
+/home/juan/Nao/naoWorkspace/laberinto_final/build-naoqi-sdk/CMakeFiles/test_Laberinto_final.dir
